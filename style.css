@@ -18,19 +18,19 @@ body {
 .wrapper1 {
     height: 100%;
     width: 100%;
-    background: url('/images/bg1.png') no-repeat;
+    background: url('./images/bg1.png') no-repeat;
     background-size: 100% 100%;
     animation: bg infinite ease-out 6s;
 }
 
 @keyframes bg {
     100% {
-        background: url('/images/bg1.png') no-repeat;
+        background: url('./images/bg1.png') no-repeat;
         background-size: 100% 100%;
     }
 
     50% {
-        background: url('/images/bg2.png') no-repeat;
+        background: url('./images/bg2.png') no-repeat;
         background-size: 100% 100%;
     }
 }
