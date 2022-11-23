@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.wrapper1 {
+    height: 100%;
+    width: 100%;
+    background: url('/images/bg1.png') no-repeat;
+    background-size: 100% 100%;
+    animation: bg infinite ease-out 6s;
+}
+
+@keyframes bg {
+    100% {
+        background: url('/images/bg1.png') no-repeat;
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url('/images/bg2.png') no-repeat;
+        background-size: 100% 100%;
+    }
+}
